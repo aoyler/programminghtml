@@ -5,25 +5,7 @@ void setup() {
 
 void draw () {   
   background(183,234,238); 
-    fill(69,64,215);
-   line(mouseX, mouseY, mouseX+10, mouseY-120); //blue balloon  
-   ellipse (mouseX+10, mouseY-120, 50,50); 
-   
-   fill(61,205,167);
-   line(mouseX, mouseY, mouseX-10, mouseY-120); //mint balloon  
-   ellipse (mouseX-10, mouseY-120, 50,50); 
-   
- fill(166,48,76);
-   line(mouseX, mouseY, mouseX+20, mouseY-70); //burgandy balloon  
-   ellipse (mouseX+20, mouseY-70, 50,50);  
-   
-    fill(247,255,124);
-   line(mouseX, mouseY, mouseX-20, mouseY-70); //mint balloon  
-   ellipse (mouseX-20, mouseY-70, 50,50); 
-   
-     fill(152,68,152);
-  line(mouseX, mouseY, mouseX, mouseY-100); //purple balloon
-ellipse (mouseX, mouseY-100, 50,50);   
+    fill(69,64,215);   
 
 fill(222,18,73);//bowtie
 triangle(161,250,230,231,230,270);
@@ -59,6 +41,25 @@ arc(160, 202, 80, 50, 0, 3.14);
 fill(255,255,255); 
 triangle(135,204,145,204,140,215); 
 triangle(176,204,186,204,181,215);
-surface.setTitle(mouseX+","+mouseY);   
+surface.setTitle(mouseX+","+mouseY);
+ fill(69,64,215);
+   line(mouseX, mouseY, mouseX+10, mouseY-120); //blue balloon  
+   ellipse (mouseX+10, mouseY-120, 50,50); 
+   
+   fill(61,205,167);
+   line(mouseX, mouseY, mouseX-10, mouseY-120); //mint balloon  
+   ellipse (mouseX-10, mouseY-120, 50,50); 
+   
+ fill(166,48,76);
+   line(mouseX, mouseY, mouseX+20, mouseY-70); //burgandy balloon  
+   ellipse (mouseX+20, mouseY-70, 50,50);  
+   
+    fill(247,255,124);
+   line(mouseX, mouseY, mouseX-20, mouseY-70); //mint balloon  
+   ellipse (mouseX-20, mouseY-70, 50,50); 
+   
+     fill(152,68,152);
+  line(mouseX, mouseY, mouseX, mouseY-100); //purple balloon
+ellipse (mouseX, mouseY-100, 50,50);  
 
 }
